@@ -1,0 +1,34 @@
+.edit {
+    width: 100%;
+    height: 25px;
+}
+
+.editMode{
+    border: 1px solid black;
+}
+
+/*table layout*/
+table {
+    border: 3px solid lavender;
+    border-radius: 3px;
+}
+
+table tr:nth-child(1) {
+    background-color: dodgerblue;
+}
+
+table tr:nth-child(1) th {
+    color: white;
+    padding:10px 0px;
+    letter-spacing: 1px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: lavender;
+    color: black;
+}
+
